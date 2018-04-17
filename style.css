@@ -1,0 +1,120 @@
+
+.tabClass {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.twitch-color {
+    background-color: red;
+    color: rebeccapurple;
+}
+
+
+.nav-pills .nav-link.active:hover  { 
+    color: white;
+}
+.nav-pills .nav-link:hover{
+    color:#696969;
+}
+
+.nav-pills .nav-link{
+    color:#808080;
+    
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    
+    background-color: mediumpurple;
+}
+.logo {
+color: mediumpurple;
+}
+.card {
+    height: 90%;
+}
+.arrow{
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    content:"";
+    width: 0;
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid mediumpurple;
+    top: -44px;
+    position:relative;
+    left: 15%; 
+
+}
+
+.tab-content { 
+    border-top: 10px solid mediumpurple;
+}
+
+#pills-tab {
+    padding-bottom: 15px;
+}
+
+.card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.card-title a{
+    color: #007b5e !important;
+    text-decoration-line: none;
+}
+
+#pills-All { 
+    height: 55vh;
+    overflow: auto;
+}
+
+.card {
+    margin-bottom: 1em;
+}
+
+.followers {
+    position :absolute; 
+    left:3%;
+    bottom:2%;
+}
+
+.status {
+    position :absolute;
+    right:3%;
+    bottom:2%;
+}
+.Online{
+    color: greenyellow;
+}
+.Offline{
+    color: orangered;
+}
+.tab-pane::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+}
+
+.tab-pane::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+}
+
+.tab-pane::-webkit-scrollbar-thumb {
+    background: #848484;
+    border-radius: 10px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    line-height: 50px;
+    background-color:  mediumpurple;    
+}	
+.footer a {
+    color: white;
+    text-decoration: none;
+}
